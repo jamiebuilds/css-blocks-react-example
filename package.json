@@ -1,0 +1,29 @@
+{
+  "name": "css-blocks-react-example",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "description": "Example React app using CSS Blocks",
+  "repository": "https://github.com/jamiebuilds/css-blocks-react-example",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@css-blocks/jsx": "^0.18.0",
+    "@css-blocks/webpack": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
